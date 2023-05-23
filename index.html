@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>חופשים Scout Troop</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 <style>
     .sticky {
         position: fixed;
@@ -17,6 +19,7 @@
     }
     .navbar-light .navbar-nav .nav-link {
         color: white;
+	font-size: 24px;
     }
     .content {
         display: flex;
@@ -37,7 +40,16 @@
         background-color: #4A83F0;
         border-color: #4A83F0;
     }
+    p {
+        margin-bottom: 1px; /* Adjust this value to your liking */
+    }
+    .fab {
+        color: white; /* Match the color to your theme */
+        margin-right: 20px; /* Add some space between the logo and the icon */
+	font-size: 64px;
+    }
 </style>
+
 
 
 
@@ -46,20 +58,23 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!-- Sticky Navigation Bar -->
-<nav class="navbar navbar-expand-sm bg-primary navbar-light sticky-top">
-    <ul class="navbar-nav justify-content-center">
-        <li class="nav-item"><a class="nav-link" href="#opening">למה אנחנו פותחים</a></li>
-        <li class="nav-item"><a class="nav-link" href="#suitability">מי זה מתאים ל</a></li>
-        <li class="nav-item"><a class="nav-link" href="#subscribe">הירשם</a></li>
+<nav class="navbar navbar-expand-sm bg-primary navbar-light sticky-top justify-content-center">
+        <img src="tariel_bluelogow.svg" alt="Logo" width="128" height="128">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#opening">למה לפתוח אריאל בבאר גנים?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#suitability">זה מתאים לי?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#subscribe">אני רוצה להירשם!</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">צור קשר</a></li>
     </ul>
+    <a href="https://wa.me/1234567890?text=more%20details" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </nav>
-
 
 
     <!-- Section 1: Opening -->
     <div id="opening" class="container-fluid content">
-        <h2>למה אנחנו פותחים</h2>
+        <h2>למה לפתוח אריאל בבאר גנים?</h2>
         <p>
 לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח. לת צשחמי קולהע צופעט למרקוח איבן איף, ברומץ כלרשט מיחוצים. קלאצי סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט
 
@@ -81,7 +96,7 @@
 
     <!-- Section 2: Suitability -->
     <div id="suitability" class="container-fluid content">
-        <h2>מי זה מתאים ל</h2>
+        <h2>זה מתאים לי?</h2>
         <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח. לת צשחמי קולהע צופעט למרקוח איבן איף, ברומץ כלרשט מיחוצים. קלאצי סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט
 
 ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.
@@ -104,7 +119,7 @@
 
     <!-- Section 3: Subscription Form -->
     <div id="subscribe" class="container-fluid content">
-    <h2>הירשם</h2>
+    <h2>אני רוצה להירשם!</h2>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfZdGugKp1JfFoES0movRF8q1AEbXZ39tIB-1JPOamwooIDQ/viewform?embedded=true" width="640" height="1233" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
 
